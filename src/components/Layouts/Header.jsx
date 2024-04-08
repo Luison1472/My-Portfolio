@@ -20,10 +20,10 @@ function Header() {
     <>
       <header className="bg-gray-800 flex justify-center text-white w-full fixed left-0 top-0 py-4 z-50">
         <div className="container  flex justify-between items-center">
-          <div className="text-xl font-bold ml-3">Portfolio</div>
+          <div className="text-lg font-bold ml-3">Portfolio</div>
           <div className="flex items-center">
             <nav className={`${isMenuOpen ? 'flex' : 'hidden'} md:block`}>
-              <ul className="flex gap-8 font-medium text-lg">
+              <ul className="flex gap-3 font-medium text-lg">
                 <li><a href="#profile" onClick={(e) => handleNavLinkClick('profile', e)} className="no-underline text-white">Profile</a></li>
                 <li><a href="#skills" onClick={(e) => handleNavLinkClick('skill_box', e)} className="no-underline text-white">Skills</a></li>
                 <li><a href="#project" onClick={(e) => handleNavLinkClick('project', e)} className="no-underline text-white">Project</a></li>
