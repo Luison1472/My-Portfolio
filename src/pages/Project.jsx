@@ -22,14 +22,14 @@ function Project() {
 
    return (
    <section id="project" className="py-10 bg-white">
-      <div className="skill-container mx-auto max-w-4xl">
-         <div className="text-left mb-2">
-           <p className="mt-20 inline-block font-bold border-b-2 border-gray-400 pb-3 min-w-24 justify-start text-4xl">Project</p>
-         </div>
+      <div className="container px-4">
+        <div className="text-left mb-2">
+          <p className="mt-20 inline-block font-bold border-b-2 border-gray-400 pb-3 min-w-24 justify-start text-4xl">Project</p>
+        </div>
          
          <div className="mt-10 mb-2 text-left border-b-4 border-gray-400 border-dashed">
            <p className="inline-block font-bold pb-3 text-2xl">Main Project 1</p>
-           <div className="flex items-center">
+           <div className="flex flex-col md:flex-row items-center mb-5">
             <h2 className="text-xl font-semibold mt-4 mb-3">Go Together / 같이가요~</h2>
             <div className="bg-blue-300 ml-5 px-3 pt-1 rounded-xl text-white items line">협업</div>
            </div>
@@ -272,7 +272,7 @@ function Project() {
            <div className="inline-block font-bold pb-3 text-2xl cursor-pointer" onClick={toggleSubProject}>
              
              <span
-               className="inline-block transform transition-transform duration-300 mr-5"
+               className="inline-block md:text-sm transform transition-transform duration-300 mr-5"
                style={{transform: isSubProjectOpen ? 'rotate(180deg)' : 'rotate(90deg)'}}>
               ▲
             </span>
@@ -280,10 +280,10 @@ function Project() {
           </div>
            {isSubProjectOpen && (
              <>
-               <div className="flex items-center">
-                 <h2 className="text-xl font-semibold mt-4 mb-3">Coupang-CategoryBest / 마크업</h2>
-                 <div className="bg-red-300 ml-5 px-3 pt-1 rounded-xl text-white items line">과제</div>
-               </div>
+               <div className="flex items-center space-x-1 md:space-x-5">
+                <h2 className="text-xl font-semibold mt-4 mb-3">Coupang-CategoryBest / 마크업</h2>
+                <div className="bg-red-300 px-3 pt-1 rounded-xl text-white">과제</div>
+              </div>
                <div className="flex mb-5">
                  <img className="w-52 rounded-xl shadow-neutral mr-5" src="/img/Coupang-CategoryBest.png" alt="같이가요 플젝 이미지" />
 
