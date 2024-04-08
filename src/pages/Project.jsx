@@ -34,9 +34,9 @@ function Project() {
             <div className="bg-blue-500 ml-5 px-3 pt-1 rounded-xl text-white items line">협업</div>
            </div>
              <div className="flex mb-5">
-               <img className="w-52 rounded-xl shadow-neutral mr-5" src="/img/GoTogether.png" alt="같이가요 플젝 이미지" />
+               <img className="w-52  rounded-xl shadow-neutral mr-5" src="/img/GoTogether.png" alt="같이가요 플젝 이미지" />
 
-               <div className="flex flex-col justify-between">
+               <div className="flex flex-col flex-wrap justify-between">
                  <ul className="border-l-4 border-black">
                    <li className="ml-5 font-extrabold text-xl">프로젝트 간략한 설명</li>
                    <li className="ml-5 mb-5">이 프로젝트는 여행을 좋아하지만 혼자가기엔 부담스러울 때 동행자를 구하는 웹앱 서비스 입니다.<br />
@@ -280,8 +280,8 @@ function Project() {
           </div>
            {isSubProjectOpen && (
              <>
-               <div className="flex items-center space-x-1 md:space-x-5">
-                <h2 className="text-xl font-semibold mt-4 mb-3">Coupang-CategoryBest / 마크업</h2>
+               <div className="flex items-center space-x-1 md:space-x-2">
+                <h2 className="text-xl font-semibold mt-4 mb-3">Coupang-Offer / 마크업</h2>
                 <div className="bg-red-300 px-3 pt-1 rounded-xl text-white">과제</div>
               </div>
                <div className="flex mb-5">
