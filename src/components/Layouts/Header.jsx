@@ -18,7 +18,7 @@ function Header() {
 
   return (
     <>
-      <header className="bg-gray-800 text-white w-full fixed left-0 top-0 py-4 z-50">
+      <header className="bg-gray-800 flex justify-center text-white w-full fixed left-0 top-0 py-4 z-50">
         <div className="container flex justify-between items-center px-4">
           <div className="text-xl font-bold">Portfolio</div>
           <div className="flex items-center">
