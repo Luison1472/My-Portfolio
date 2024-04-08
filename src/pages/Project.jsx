@@ -21,7 +21,7 @@ function Project() {
 
 
    return (
-   <section id="project" className="py-10 bg-white">
+   <section id="project" className="lg:p-5 py-10 bg-white">
       <div className="container px-4">
         <div className="text-left mb-2">
           <p className="mt-20 inline-block font-bold border-b-2 border-gray-400 pb-3 min-w-24 justify-start text-4xl">Project</p>
@@ -29,9 +29,9 @@ function Project() {
          
          <div className="mt-10 mb-2 text-left border-b-4 border-gray-400 border-dashed">
            <p className="inline-block font-bold pb-3 text-2xl">Main Project 1</p>
-           <div className="flex flex-col md:flex-row items-center mb-5">
-            <h2 className="text-xl font-semibold mt-4 mb-3">Go Together / 같이가요~</h2>
-            <div className="bg-blue-300 ml-5 px-3 pt-1 rounded-xl text-white items line">협업</div>
+           <div className="flex items-center">
+            <h2 className="text-xl font-semibold mt-4 mb-3">Go Together / 같이가요~ </h2>
+            <div className="bg-blue-500 ml-5 px-3 pt-1 rounded-xl text-white items line">협업</div>
            </div>
              <div className="flex mb-5">
                <img className="w-52 rounded-xl shadow-neutral mr-5" src="/img/GoTogether.png" alt="같이가요 플젝 이미지" />
@@ -339,7 +339,7 @@ function Project() {
            <div className="inline-block font-bold pb-3 text-2xl cursor-pointer" onClick={secondToggleSubProject}>
              
              <span
-               className="inline-block transform transition-transform duration-300 mr-5"
+               className="inline-block md:text-sm transform transition-transform duration-300 mr-5"
                style={{transform: isSecondSubProjectOpen ? 'rotate(180deg)' : 'rotate(90deg)'}}>
               ▲
             </span>
@@ -348,8 +348,8 @@ function Project() {
            {isSecondSubProjectOpen && (
              <>
                <div className="flex items-center">
-                 <h2 className="text-xl font-semibold mt-4 mb-3">News Infinite viewer & Intersection Observer / 마크업</h2>
-                 <div className="bg-red-300 ml-5 px-3 pt-1 rounded-xl text-white items line">과제</div>
+                 <h2 className="text-xl font-semibold mt-4 mb-3">News Infinite viewer / 마크업</h2>
+                 <div className="bg-red-300 ml-1 px-3 pt-1 rounded-xl text-white items line">과제</div>
                </div>
                <div className="flex mb-5">
                  <img className="w-52 h-44 rounded-xl shadow-neutral mr-5" src="/img/NewsViewer.png" alt="같이가요 플젝 이미지" />
