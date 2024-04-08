@@ -4,7 +4,7 @@ function Project() {
     return (
         <section id="profile" className="pt-28 relative max-w-full bg-gray-50 px-4 md:px-10 lg:px-12">
             <div className="text-left">
-                <p className="inline-block font-bold border-b-2 border-gray-400 pb-3 min-w-40 justify-start text-3xl">FE_JuniorDev_Portfolio</p>
+                <p className="inline-block font-bold border-b-2 border-gray-400 pb-3 min-w-40 justify-start text-2xl ss:text-xl">FE_JuniorDev_Portfolio</p>
             </div>
             <div className="mt-8">
                 <h2 className="text-3xl flex justify-start font-bold mb-2">About Me</h2>

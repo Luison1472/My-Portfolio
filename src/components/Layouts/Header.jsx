@@ -19,8 +19,8 @@ function Header() {
   return (
     <>
       <header className="bg-gray-800 flex justify-center text-white w-full fixed left-0 top-0 py-4 z-50">
-        <div className="container flex justify-between items-center px-4">
-          <div className="text-xl font-bold">Portfolio</div>
+        <div className="container  flex justify-between items-center">
+          <div className="text-xl font-bold ml-3">Portfolio</div>
           <div className="flex items-center">
             <nav className={`${isMenuOpen ? 'flex' : 'hidden'} md:block`}>
               <ul className="flex gap-8 font-medium text-lg">
@@ -31,7 +31,7 @@ function Header() {
             </nav>
             <div className="ml-5 md:hidden">
               <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
               </button>
             </div>
           </div>
