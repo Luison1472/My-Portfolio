@@ -61,18 +61,17 @@ function Project() {
            <div className="mb-5">
                 <h3 className="font-bold text-lg">Skill</h3>
          
-               <ul className="flex justify-start gap-4 ml-5 ">
+               <ul className="flex justify-start flex-wrap gap-4 ml-5 ">
                             
-                            <li className="animate-fadeIn flex items-center rounded-lg border shadow-lg py-3 px-3 transition-transform duration-600"><img src="/img/react.png" alt="React 아이콘" className="w-10 "/></li>
+              <li className="animate-fadeIn flex items-center rounded-lg border shadow-lg py-3 px-3 transition-transform duration-600"><img src="/img/react.png" alt="React 아이콘" className="w-10 "/></li>
                <li className="animate-fadeIn align-middle flex items-center rounded-lg border shadow-lg py-3 px-3  transition-transform duration-600"><img src="/img/javascript.png" alt="JavaScript 아이콘" className="w-10"/></li>             
                <li className="animate-fadeIn align-middle flex items-center rounded-lg border shadow-lg py-3 px-3  transition-transform duration-600"><img src="/img/ts.png" alt="ts 아이콘" className="w-10"/></li>
                <li className="animate-fadeIn flex items-center rounded-lg border shadow-lg py-3 px-3 transition-transform duration-600"><img src="/img/tailwindcss.png" alt="TailwindCSS 아이콘" className="w-10" /></li>
-                            <li className="animate-fadeIn flex items-center rounded-lg border shadow-lg py-3 px-3  transition-transform duration-600"><img src="/img/daisyui.png" alt="DaisyUI 아이콘" className="w-10"/></li>
+               <li className="animate-fadeIn flex items-center rounded-lg border shadow-lg py-3 px-3  transition-transform duration-600"><img src="/img/daisyui.png" alt="DaisyUI 아이콘" className="w-10"/></li>
+               <li className="animate-fadeIn align-middle flex items-center rounded-lg border shadow-lg py-3 px-3 transition-transform duration-600"><img src="/img/recoil.png" alt="Recoil 아이콘" className="w-10"/></li>
+               <li className="animate-fadeIn align-middle flex items-center rounded-lg border shadow-lg py-3 px-3 transition-transform duration-600"><img src="/img/reactquery.png" alt="ReactQuery 아이콘" className="w-10"/></li>
                             
-                            <li className="animate-fadeIn align-middle flex items-center rounded-lg border shadow-lg py-3 px-3 transition-transform duration-600"><img src="/img/recoil.png" alt="Recoil 아이콘" className="w-10"/></li>
-                            <li className="animate-fadeIn align-middle flex items-center rounded-lg border shadow-lg py-3 px-3 transition-transform duration-600"><img src="/img/reactquery.png" alt="ReactQuery 아이콘" className="w-10"/></li>
-                            
-                        </ul>
+               </ul>
              
             </div>
             
