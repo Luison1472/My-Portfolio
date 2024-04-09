@@ -35,7 +35,7 @@ function Project() {
                     <div className="flex font-extrabold text-3xl items-center gap-2 mb-5">Education</div>
                     <ul className="mb-5 border-l-4 border-black">
                         <li className="ml-5 flex items-center gap-2 text-left mb-2">청운대학교(전자공학과, 전자공학부)<br/>2018.03~2023.07</li>
-                        <li className="ml-5 flex items-center gap-2 text-left">제로베이스 프론트엔드 취업 스쿨 졸업<br/>2024.09~2024.03</li>
+                        <li className="ml-5 flex items-center gap-2 text-left">제로베이스 프론트엔드 취업 스쿨 졸업<br/>2023.09.01~2024.03.28</li>
                     </ul>
                     <div className="flex font-extrabold text-3xl items-center gap-2 mb-5">Social Media</div>
                     <ul className="mb-5 border-l-4 border-black">
