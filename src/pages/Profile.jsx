@@ -25,16 +25,16 @@ function Project() {
                 <div className="text-gray-700 text-lg mt-2 md:mt-0">
                     <div className="flex font-extrabold text-3xl items-center gap-2 mb-5">박민서 / Minseo Park</div>
                     <ul className="mb-5 border-l-4 border-black ">
-                        <li className="ml-5 flex items-center gap-1"><span className="mr-5">Name</span><span>박민서</span></li>
-                        <li className="ml-5 flex items-center gap-1"><span className="mr-12">Tel</span><span>010-8077-1915</span></li>
-                        <li className="ml-5 flex items-center gap-1"><span className="mr-8">Birth</span><span>1999.08.27</span></li>
+                        <li className="ml-5 flex items-center gap-1"><span className="mr-9">Name</span><span>박민서</span></li>
+                        <li className="ml-5 flex items-center gap-1"><span className="mr-16">Tel</span><span>010-8077-1915</span></li>
+                        <li className="ml-5 flex items-center gap-1"><span className="mr-12">Birth</span><span>1999.08.27</span></li>
                         <li className="ml-5 flex items-center gap-1"><span className="mr-2">Address</span><span>인천광역시 서구 한들로33</span></li>
-                        <li className="ml-5 flex items-center gap-1"><span className="mr-5">E-mail</span><span>melody9908@naver.com</span></li>
+                        <li className="ml-5 flex items-center gap-1"><span className="mr-8">E-mail</span><span>melody9908@naver.com</span></li>
                     </ul>
 
                     <div className="flex font-extrabold text-3xl items-center gap-2 mb-5">Education</div>
                     <ul className="mb-5 border-l-4 border-black">
-                        <li className="ml-5 flex items-center gap-2 text-left mb-2">청운대학교(전자공학과, 전자공학부)<br/>2018.03~2023.07</li>
+                        <li className="ml-5 flex items-center gap-2 text-left mb-2">청운대학교 (전자공학과, 전자공학부)<br/>2018.03~2023.07</li>
                         <li className="ml-5 flex items-center gap-2 text-left">제로베이스 프론트엔드 취업 스쿨 졸업<br/>2023.09.01~2024.03.28</li>
                     </ul>
                     <div className="flex font-extrabold text-3xl items-center gap-2 mb-5">Social Media</div>
