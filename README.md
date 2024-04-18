@@ -2,10 +2,6 @@
 
 프론트엔드 주니어 개발자 박민서의 포트폴리오 프로젝트입니다.
 
-### 프로젝트 세부내용
-
-<a href="https://blog.naver.com/mingcoding" target="_blank"><img src="https://img.shields.io/badge/N-naverBlog%20-%20naverblog" /></a>
-
 ## 개발 Stack
 
 - React (v18.2.0)
@@ -23,7 +19,7 @@
 
 - 버전: v10.2.0
 
-# 
+#
 
 ```
 FE_portfolio 최신버전 04_08
