@@ -1,9 +1,19 @@
-# React + Vite
+# [박민서] Junior Front-End Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+프론트엔드 주니어 개발자 박민서의 포트폴리오입니다.
 
-Currently, two official plugins are available:
+## 개발 Stack
+- React (v18.2.0)
+- vite (v5.0.11)
+- 
+## 실행 전 준비사항
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# portfolio_TeamNaver
+※ 모든 버전은 프로젝트 개시 당시 버전
+
+1. Node.js 설치
+
+- 버전: v21.1.0
+
+  2.npm 설치
+
+- 버전: v10.2.0
