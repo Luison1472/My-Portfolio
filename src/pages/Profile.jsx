@@ -10,9 +10,9 @@ function Project() {
                 <h2 className="text-3xl flex justify-start font-bold mb-2">About Me</h2>
                 <div className="text-lg font-medium space-y-1 mb-1">
                     <p className="text-left">
-                        안녕하세요! 꾸준히 성장하는 주니어 FE 개발자 박민서입니다.<br />
+                        안녕하세요! 프론트엔드 웹 개발자 박민서입니다.<br />
                         전자공학을 전공하고 제가 정말 하고 싶은 일을 찾아 개발자의 길을 선택했습니다.<br />
-                        진로를 변경한 후, 코드리뷰와 토론을 통해 새로운 것을 배우고, 완성된 결과물을 보며 느끼는 성취감이 저를 더욱 개발에 몰입하게 만듭니다.
+                        진로를 변경한 후, 코드리뷰와 토론을 통해 새로운 것을 배우고, 완성된 결과물을 보며 느끼는 성취감이<br/> 저를 더욱 개발에 몰입하게 만듭니다.
                     </p>
                 </div>
             </div>
