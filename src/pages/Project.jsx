@@ -189,13 +189,13 @@ const getAuthHandler = http.get('/api/auth', async () => {
                   <p className="font-extrabold text-lg ml-5 mt-2">Solve</p>
                   <ul className="ml-5 mt-2 list-disc">
                     <li className="font-extrabold list-none">4가지의 예외처리를 수정.</li>
-                     <li className="ml-5">신규 회원 로그인</li>
+                     <li className="ml-5 font-bold">신규 회원 로그인</li>
                      <p className="ml-5">- 신규회원을 response의 email을 대조 및 판별하여 USER_NOT_FOUND 오류가 생길시, 카카오 회원가입 페이지로 리다이렉트</p>
-                     <li className="ml-5">기존 회원 로그인</li>
+                     <li className="ml-5 font-bold">기존 회원 로그인</li>
                      <p className="ml-5">- 기존 회원일 경우 accessToken이 있음으로 로그인 직후, 받은 accessToken을 로컬 스토리지에 저장</p>
-                     <li className="ml-5">같은 이메일로 가입 시도하는 카카오 신규 회원</li>
+                     <li className="ml-5 font-bold">같은 이메일로 가입 시도하는 카카오 신규 회원</li>
                      <p className="ml-5">- DB상 존재하는 이메일로 가입 할 시, 서버에서 DUPLICATE_USER 오류 발생으로 초기 페이지로 리다이렉트</p>
-                     <li className="ml-5">CODE를 부여받지 않고 url로 추가정보기입 페이지로 접근시도 하는 회원</li>
+                     <li className="ml-5 font-bold">CODE를 부여받지 않고 url로 추가정보기입 페이지로 접근시도 하는 회원</li>
                      <p className="ml-5 mb-5">- Kakao 가입 시, 고유 CODE를 부여받기에, 이를 서버에서 판단하에 verifying user 에러일 시 접근 방지 </p>
                    </ul>
 
@@ -304,13 +304,13 @@ const getAuthHandler = http.get('/api/auth', async () => {
             <div className="mb-5">
              <h3 className="font-bold text-lg">My Part</h3>
              <ul className="ml-5 list-disc">
-               <li>FireBase를 사용해 RESTful API 사용</li>
+               <li className="font-bold">FireBase를 사용해 RESTful API 사용</li>
                <p className="ml-5">- 백엔드 없이 1인 개발을 위해 Fire-Base 서비스를 사용 / 협업 전 RESTful Method에 관한 공부를 할 수 있었음</p>
-               <li>HTML 5 와 JavaScript, CSS 3, Styled-component를 사용하여 마크업 및 UI 구현</li>
+               <li className="font-bold">HTML 5 와 JavaScript, CSS 3, Styled-component를 사용하여 마크업 및 UI 구현</li>
                <p className="ml-5">- 프론트엔드의 기본 스택을 가지고 개인 프로젝트를 기획 및 개발 함으로서, 기초를 다질 수 있는 기회였음.</p>
-               <li>Context-API를 사용하여 전역 상태 관리</li>
+               <li className="font-bold">Context-API를 사용하여 전역 상태 관리</li>
                <p className="ml-5">- 사용자의 정보를 다른 컴포넌트에서 불러오기 위하여 context-API를 사용함</p>
-               <li>Pagination을 사용하여 여러 게시글들을 효율적으로 관리 할 수 있도록 관리</li>
+               <li className="font-bold">Pagination을 사용하여 여러 게시글들을 효율적으로 관리 할 수 있도록 관리</li>
                <p className="ml-5">- 무한 스크롤과 Pagination의 차이점을 공부하였으며 InterSection Observer에 대하여도 공부할 수 있었음</p>
              </ul>
            </div>
@@ -362,7 +362,7 @@ const getAuthHandler = http.get('/api/auth', async () => {
                       <CodeBlock codeString={YoriJoriString} />
                     </div>
                    </div>
-                    <div className="ml-10 font-extrabold border-b-2 border-black border-dotted pb-10">
+                    <div className="ml-10 font-extrabold ">
                       <span>-&gt; </span>
                       <span className="">후에 협업 프로젝트로 API 연동시, Data를 서버에 보낼 땐 multipart-Type 사용한다는 것을 알게 됨</span><br/>
                     </div>
