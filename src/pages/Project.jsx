@@ -86,6 +86,17 @@ const getAuthHandler = http.get('/api/auth', async () => {
   
   
 
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };  
+
+  const toggleSubProject = () => {
+    setIsSubProjectOpen(!isSubProjectOpen);
+  };
+
+  const secondToggleSubProject = () => {
+    setIsSecondSubProjectOpen(!isSecondSubProjectOpen);
+  }
 
 
 
@@ -156,12 +167,17 @@ const getAuthHandler = http.get('/api/auth', async () => {
              
               <h3 
                 className="font-bold text-lg cursor-pointer flex items-center justify-start gap-5" 
-                
+                onClick={toggle}
              >
-               
+               <span 
+                  className="text-sm inline-block transform" 
+                  style={{ transform: isOpen ? 'rotate(180deg)' : 'rotate(90deg)' }}
+                >
+                  ▲
+                </span>
                 Trouble Shooting         
               </h3>
-             
+             {isOpen && (
                <div>
                 <div className="mb-10">
                 <p className="font-extrabold text-lg ml-5 mt-2">Problem 1</p>
@@ -225,7 +241,7 @@ const getAuthHandler = http.get('/api/auth', async () => {
                </div>
                </div>
                
-  
+              )}
            </div>
            
                                            {/* /////////////////////////////////////////////////////////////////////////////// */}
@@ -315,12 +331,17 @@ const getAuthHandler = http.get('/api/auth', async () => {
              
               <h3 
                 className="font-bold text-lg cursor-pointer flex items-center justify-start gap-5" 
-              
+                onClick={toggle}
              >
-               
+               <span 
+                  className="text-sm inline-block transform" 
+                  style={{ transform: isOpen ? 'rotate(180deg)' : 'rotate(90deg)' }}
+                >
+                  ▲
+                </span>
                 Trouble Shooting         
               </h3>
-             
+             {isOpen && (
                <div>
                 <div className="mb-10">
                 <p className="font-extrabold text-lg ml-5 mt-2">Problem 1</p>
@@ -349,7 +370,7 @@ const getAuthHandler = http.get('/api/auth', async () => {
                  
                </div>
                
-        
+              )}
             </div>
             <div className="mb-5">
                 <h3 className="font-bold text-lg">What I Learn</h3>
